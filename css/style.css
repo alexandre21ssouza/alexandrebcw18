@@ -179,6 +179,28 @@ input[type=reset]:hover{
     font-weight: bold;
 }
 
+.footerSocial{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footerSocial > div{
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.footerSocial > div >img{
+    width: 50px;
+}
+
+.footerSocial > div > p{
+    font: 10px;
+    text-align: center;
+}
+
 @media screen and (max-width: 400px) {
     .leftColumn,
     .rightColumn{
